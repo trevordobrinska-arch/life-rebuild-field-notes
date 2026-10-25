@@ -1,0 +1,34 @@
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local credentials, backups, and user records
+credentials/
+secrets/
+backups/
+exports/
+private-data/
+*.dump
+*.backup
+*.sqlite
+*.sqlite3
+
+# Tool and machine state
+node_modules/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+*.log
+
+# Local build and deployment artifacts
+dist/
+build/
+*.zip
